@@ -15,10 +15,10 @@ export default function DailyMessage() {
           <p className="text-2xl font-light italic leading-relaxed mb-8">
             "Em verdade, cada criatura responderá pelos compromissos que assume,
             à frente da Lei, e mordomos e apóstolos da evolução planetária serão
-            constrangidos à prestacão de contas dos bens que houverem usufruído
+            constrangidos à prestação de contas dos bens que houverem usufruído
             para melhoria e iluminação do mundo, no entanto, não olvides a
             superioridade espiritual com o Cristo e nem te esqueças de que foste
-            chamadopor Jesus a partilhar-lhe o Conhecimento Divino da paz e da
+            chamado por Jesus a partilhar-lhe o Conhecimento Divino da paz e da
             justiça, do sacrifício e da tolerância fraterna."
           </p>
           <div className="flex items-center gap-4">
