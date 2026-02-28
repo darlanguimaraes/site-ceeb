@@ -1,0 +1,37 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+@font-face {
+  font-family: 'Cookie';
+  src: url('./assets/cookie.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@theme {
+  --color-primary: #1e3a8a;
+  --color-background-light: #ffffff;
+  --color-accent-blue: #f0f4ff;
+  
+  --font-display: "Plus Jakarta Sans", sans-serif;
+  --font-cookie: "Cookie", cursive;
+  
+  --max-width-8xl: 1440px;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-display);
+    background-color: var(--color-background-light);
+    color: rgb(30 41 59);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: max(884px, 100dvh);
+  }
+}
+
+@layer utilities {
+  .font-cookie {
+    font-family: var(--font-cookie);
+  }
+}
